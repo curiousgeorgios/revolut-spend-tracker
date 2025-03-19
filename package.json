@@ -1,0 +1,18 @@
+{
+  "name": "daily-spend-rate",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker to track and notify about daily spend rate",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jose": "^4.14.6"
+  },
+  "devDependencies": {
+    "wrangler": "^4.2.0"
+  }
+}

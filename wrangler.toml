@@ -1,0 +1,34 @@
+name = "daily-spend-rate"
+main = "src/index.js"
+compatibility_date = "2023-10-16"
+
+[observability.logs]
+enabled = true
+
+[triggers]
+# Run once daily at 7:00 UTC
+crons = ["0 7 * * *"]
+
+[[kv_namespaces]]
+binding = "REVOLUT_TOKEN"
+id = ""
+
+[[kv_namespaces]]
+binding = "REVOLUT_TOKEN_EXPIRY"
+id = ""
+
+[[kv_namespaces]]
+binding = "REVOLUT_REFRESH_TOKEN"
+id = ""
+
+[[kv_namespaces]]
+binding = "LAST_PROCESSED_DATE"
+id = ""
+
+[[kv_namespaces]]
+binding = "HISTORICAL_SPEND_DATA"
+id = ""
+
+[[kv_namespaces]]
+binding = "TELEGRAM_CHAT_IDS"
+id = ""

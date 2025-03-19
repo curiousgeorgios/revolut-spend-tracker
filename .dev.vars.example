@@ -1,0 +1,18 @@
+## Default currency is set to AUD - uncoment below to change to your account's default currency
+# DEFAULT_CURRENCY=
+
+# Revolut Business API credentials
+REVOLUT_CLIENT_ID=""
+
+REVOLUT_ISSUER="curiousgeorge.dev"
+
+REVOLUT_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----
+
+-----END PRIVATE KEY-----"
+
+# Initial refresh token from the authorization code flow
+REVOLUT_INITIAL_REFRESH_TOKEN=""
+
+# Telegram bot settings
+TELEGRAM_BOT_TOKEN=""
+TELEGRAM_CHAT_ID=""
