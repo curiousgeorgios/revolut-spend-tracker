@@ -2,6 +2,8 @@
 
 A Cloudflare Workers application that calculates your daily spend rate from Revolut Business expenses and sends you notifications via Telegram.
 
+![Daily Spend Rate Tracker](image.png)
+
 ## How It Works
 
 1. The worker runs on a daily cron schedule (7:00 UTC by default).
